@@ -15,22 +15,107 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 </head>
 <body>
-  <h1>Your content here!</h1>
+  <header class="masthead">
+    <p class="eyebrow">Issue 07 · Visual Notes</p>
+    <h1>Stories in form and color</h1>
+    <p class="dek">
+      A compact editorial page that pairs observation, taste, sound, and fashion into a simple magazine-style showcase.
+    </p>
+  </header>
+
   <nav>
     <ul>
-        <li>Observable Chart</li>
-        <li>Food</li>
-        <li>Music</li>
-        <li>Watches</li>
+      <li>Observable Chart</li>
+      <li>Food</li>
+      <li>Music</li>
+      <li>Watches</li>
     </ul>
   </nav>
 
-  <section>
-    <h2>Observable chart</h2>
-    <fencedframe src="https://observablehq.com/embed/@d3/bar-chart" width="100%" height="500" frameborder="0"></fencedframe>    
+  <main class="content">
+    <section class="hero-article">
+      <div class="hero-copy">
+        <h2>Observable chart</h2>
+        <p>
+          A clean data visualization anchors the page, while the surrounding editorial layout gives it a feature-story presence.
+        </p>
+        <p>
+          The chart sits as the centerpiece of the spread, supported by a restrained grid of related visual themes.
+        </p>
+      </div>
+      <figure class="hero-card">
+        <img
+          src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
+          alt="Notebook and chart setup on a desk"
+        >
+      </figure>
+    </section>
 
-    </h2></h2>
-  </section>
+    <section class="feature-grid">
+      <article class="story-card">
+        <img
+          src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=800&q=80"
+          alt="A plated meal on a table"
+        >
+        <div class="story-card__body">
+          <h3>Food</h3>
+          <p>Seasonal plates, natural light, and slow conversation give the page a softer editorial rhythm.</p>
+        </div>
+      </article>
+
+      <article class="story-card">
+        <img
+          src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=800&q=80"
+          alt="A vinyl record and headphones"
+        >
+        <div class="story-card__body">
+          <h3>Music</h3>
+          <p>Analog textures and warm tones help carry the same magazine feel across every content block.</p>
+        </div>
+      </article>
+
+      <article class="story-card">
+        <img
+          src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=800&q=80"
+          alt="Luxury wristwatch close-up"
+        >
+        <div class="story-card__body">
+          <h3>Watches</h3>
+          <p>Minimal detail and sharp contrast bring a refined finish to the gallery structure.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="quote-section">
+      <blockquote>
+        “Design works best when every block feels like it belongs to the same issue.”
+      </blockquote>
+    </section>
+
+    <section class="notes-section">
+      <h2>Editorial notes</h2>
+      <div class="notes-grid">
+        <article class="note-card">
+          <h3>Layout</h3>
+          <p>The columns are intentionally quiet and spacious so each image and chart can breathe.</p>
+        </article>
+        <article class="note-card">
+          <h3>Palette</h3>
+          <p>Warm beige, dark ink, and muted brown create a gentle print-inspired visual identity.</p>
+        </article>
+        <article class="note-card">
+          <h3>Motion</h3>
+          <p>Subtle hover behavior and clean type support a polished, editorial browsing experience.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="chart-section">
+      <h2>Observable chart</h2>
+      <fencedframe src="https://observablehq.com/embed/@d3/bar-chart" width="100%" height="500" frameborder="0"></fencedframe>
+    </section>
+  </main>
+
   <script src="script.js"></script>
 </body>
 </html>
