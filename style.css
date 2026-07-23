@@ -1,0 +1,10 @@
+html{
+    background: whitesmoke;
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 500px;
+}
+
+svg{
+    border: 4px dotted 
+}
